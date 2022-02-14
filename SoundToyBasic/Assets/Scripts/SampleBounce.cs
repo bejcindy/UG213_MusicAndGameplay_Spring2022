@@ -43,17 +43,17 @@ public class SampleBounce : MonoBehaviour {
 		//play any extra events (fire particles, etc)
 		bounceEvent.Invoke(collision.GetContact(0).point);
 
-
 	}
-	
-	/// <summary>
-	/// gets the velocity of the ball relative to the normal (90 degree angle) of the
-	/// platform surface (if our platform was a table, the normal would be "up"),
-	/// then maps this to our array of tones and gives us an index to pick from
-	/// </summary>
-	/// <param name="collision">unity physics engine information about the collision</param>
-	/// <returns>an index of the tone to play, based on the collision strength</returns>
-	int GetCollisionStrength(Collision2D collision)
+
+ 
+    /// <summary>
+    /// gets the velocity of the ball relative to the normal (90 degree angle) of the
+    /// platform surface (if our platform was a table, the normal would be "up"),
+    /// then maps this to our array of tones and gives us an index to pick from
+    /// </summary>
+    /// <param name="collision">unity physics engine information about the collision</param>
+    /// <returns>an index of the tone to play, based on the collision strength</returns>
+    int GetCollisionStrength(Collision2D collision)
 	{
 		//project the velocity onto the normal of the platform
 		Vector3 normal = collision.contacts[0].normal;

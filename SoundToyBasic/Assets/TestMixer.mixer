@@ -1,26 +1,26 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!244 &-2384471689379814356
+--- !u!244 &-8734000279899616888
 AudioMixerEffectController:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  m_EffectID: 3a1c5ec589d6860409b62753a9eb8a64
+  m_EffectID: c71b26e1172554a40911c1652842228b
   m_EffectName: Echo
-  m_MixLevel: e188f8157800a9140a638471ce8ddfad
+  m_MixLevel: 81683b1af36314048aefcbf0f0551680
   m_Parameters:
   - m_ParameterName: Delay
-    m_GUID: 721ff0f84bee81846888486802878b16
+    m_GUID: d6f46aebb0897446f90799bbcf21501e
   - m_ParameterName: Decay
-    m_GUID: 461f1c59381987241b150fb793fe2761
+    m_GUID: 76087cf13eb9f441fae319f79ad77afe
   - m_ParameterName: Max channels
-    m_GUID: 7066f799b8a57004cbb12784d89faf9e
+    m_GUID: 3421b64573a1d454ea5ef7810977c8a3
   - m_ParameterName: Drymix
-    m_GUID: a82c24a267071e540bdbe017e02c9f57
+    m_GUID: c06169db16d98406ebcc7934ae14f784
   - m_ParameterName: Wetmix
-    m_GUID: 339a777d467fad64aba1a8d7156f493a
+    m_GUID: 402a260db1a9f4863bf525a1a03711b7
   m_SendTarget: {fileID: 0}
   m_EnableWetMix: 0
   m_Bypass: 0
@@ -39,7 +39,7 @@ AudioMixerGroupController:
   m_Send: 00000000000000000000000000000000
   m_Effects:
   - {fileID: -549677429671389200}
-  - {fileID: -2384471689379814356}
+  - {fileID: -8734000279899616888}
   m_UserColorIndex: 0
   m_Mute: 0
   m_Solo: 0
@@ -73,9 +73,7 @@ AudioMixerController:
   m_SuspendThreshold: -80
   m_EnableSuspend: 1
   m_UpdateMode: 0
-  m_ExposedParameters:
-  - guid: 721ff0f84bee81846888486802878b16
-    name: EchoDelay
+  m_ExposedParameters: []
   m_AudioMixerGroupViews:
   - guids:
     - 522d75ad734467648b84d5314df52239

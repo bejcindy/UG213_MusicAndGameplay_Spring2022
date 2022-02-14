@@ -12,6 +12,8 @@ public class BallSpawner : MonoBehaviour {
 
 	float progress = 0.0f;
 
+	//GameObject[] balls;
+
 	void Spawn()
 	{
         GameObject next = Instantiate(model, transform.position, transform.rotation);
@@ -21,8 +23,9 @@ public class BallSpawner : MonoBehaviour {
 
 	void Update()
 	{
+		//balls=GetComponent<>
 		progress += rate * Time.deltaTime;
-		if (progress >= 1.0f)
+		if (progress >= 1.0f && transform.childCount<1)
 		{
 			Spawn();
 			progress -= 1.0f;
