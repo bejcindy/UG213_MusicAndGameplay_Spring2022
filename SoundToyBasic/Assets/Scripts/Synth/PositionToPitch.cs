@@ -77,8 +77,8 @@ public class PositionToPitch : MonoBehaviour
 
         }
 
-        Debug.Log("output pitch: " + output);
-        Debug.Log("min Y" + minY);
+        //Debug.Log("output pitch: " + output);
+        //Debug.Log("min Y" + minY);
 
         output = MathUtil.ScaleToAnimCurve(output, minPitch, maxPitch, pitchMapCurve);
 

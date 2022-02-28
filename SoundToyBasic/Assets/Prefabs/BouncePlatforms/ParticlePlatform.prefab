@@ -32,6 +32,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 15.03, y: 7.14, z: 0}
   m_LocalScale: {x: 1, y: 0.07, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -55,6 +56,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -120,7 +122,8 @@ AudioSource:
   m_GameObject: {fileID: 1427848896506232}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: -2047503225509460908, guid: 750c559b8089ca14987729b9494460ae,
+    type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 0.4
@@ -220,14 +223,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tones:
-  - {fileID: 8300000, guid: fae1fabb7936f49839e125f8f6df9052, type: 3}
-  - {fileID: 8300000, guid: 477945f224b3e4686bfb29591f3a9f8c, type: 3}
-  - {fileID: 8300000, guid: 0a305bae3d1724f26b6819dde76b8a18, type: 3}
-  - {fileID: 8300000, guid: 3a4f4f89deb5f4e488f8af2fc0621d59, type: 3}
-  - {fileID: 8300000, guid: 455d8d17d3c8645ba9d15b83dcfb4112, type: 3}
-  - {fileID: 8300000, guid: 32ae8629f4b114066839c138c6222eb8, type: 3}
-  - {fileID: 8300000, guid: c87f87e74c4af4b368e031ffc1a2b399, type: 3}
-  - {fileID: 8300000, guid: 56be48989137140619174a9392279219, type: 3}
+  - {fileID: 8300000, guid: e7113fc9cccc74f1f9d24b3188fbdfea, type: 3}
+  - {fileID: 8300000, guid: fbe90696224c44b3a86790209cd4b58f, type: 3}
+  - {fileID: 8300000, guid: cc433c8a9d2ce4cbe9e853a14a9003b9, type: 3}
+  - {fileID: 8300000, guid: 7519ba46925464344962236c14b32cb1, type: 3}
+  - {fileID: 8300000, guid: 4e1a1dd07518d48299f4817e72980f2c, type: 3}
+  - {fileID: 8300000, guid: f23dda40189d043deae82fa8316dbc68, type: 3}
+  - {fileID: 8300000, guid: eca884da144e64ff595f5224323f73f9, type: 3}
+  - {fileID: 8300000, guid: 361eb0e6be51340ba81ba8bc87e33fe5, type: 3}
   maxSpeed: 15
   bounceEvent:
     m_PersistentCalls:
@@ -244,6 +247,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  bgN: 2
 --- !u!114 &-4075902670095234982
 MonoBehaviour:
   m_ObjectHideFlags: 0

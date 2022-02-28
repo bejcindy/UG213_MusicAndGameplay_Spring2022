@@ -10,6 +10,7 @@ public class BallSpawner : MonoBehaviour {
     //this is public so we can tell the Platform Creator that we're using our mouse for something else, if 
     public bool mouseOver = false;
 
+
 	float progress = 0.0f;
 
 	//GameObject[] balls;
@@ -17,6 +18,7 @@ public class BallSpawner : MonoBehaviour {
 	void Spawn()
 	{
         GameObject next = Instantiate(model, transform.position, transform.rotation);
+		next.transform.localScale = new Vector3(3, 3, 1);
 		next.transform.parent = transform;
 		next.transform.localPosition = Vector3.zero;
 	}
@@ -28,6 +30,8 @@ public class BallSpawner : MonoBehaviour {
 		if (progress >= 1.0f && transform.childCount<1)
 		{
 			Spawn();
+			float newX = Random.Range(-20, 20);
+			transform.position = new Vector2(newX, transform.position.y);
 			progress -= 1.0f;
 		}
 	}

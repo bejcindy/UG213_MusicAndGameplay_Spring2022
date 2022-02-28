@@ -27,17 +27,26 @@ public class SampleBounce : MonoBehaviour {
 
 	public BounceEvent bounceEvent;
 
-
+    public int bgN;
+    GameObject bg;
 
     void Start() {
 		_audioSource = GetComponent<AudioSource>();
-        
+        if (bgN == 1)
+        {
+            bg = GameObject.FindGameObjectWithTag("bg1");
+            Debug.Log(bg.name);
+        }
+        if (bgN == 2)
+        {
+            bg = GameObject.FindGameObjectWithTag("bg2");
+        }
 	}
 
 	void OnCollisionEnter2D(Collision2D collision)
 	{
 		int noteIndex = GetCollisionStrength(collision);
-
+        bg.GetComponent<BGScript>().hit = true;
         _audioSource.PlayOneShot(tones[noteIndex]);
 
 		//play any extra events (fire particles, etc)
