@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/NoteHighway/Scenes/BasicRhythmGame.unity
+    guid: ee66940581359154f9fdcd76d0583280
   m_configObjects: {}

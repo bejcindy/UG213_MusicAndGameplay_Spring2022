@@ -1,6 +1,7 @@
 ﻿  using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 
 public class RhythmInput
@@ -28,6 +29,8 @@ public class InputEvaluator : MonoBehaviour
     public int gameScore;
 
     public NoteHighwayWwiseSync wwiseSync;
+
+    public Text score, hit;
 
 
 
@@ -89,7 +92,7 @@ public class InputEvaluator : MonoBehaviour
                 }
             }
         }
-
+        score.text = gameScore.ToString();
         //clear Lists
         activeGems.Clear();
         cachedInputs.Clear();
@@ -102,20 +105,24 @@ public class InputEvaluator : MonoBehaviour
             case FallingGem.CueState.OK:
                 gameScore += 1;
                 Debug.Log("OK!");
+                hit.text = "OK!";
                 gem.RemoveLateGem();
                 break;
             case FallingGem.CueState.Good:
                 gameScore += 2;
                 Debug.Log("Good!");
+                hit.text = "Good!";
                 gem.RemoveLateGem();
                 break;
             case FallingGem.CueState.Perfect:
                 gameScore += 3;
                 Debug.Log("Perfect!");
+                hit.text = "Perfect!";
                 gem.RemoveLateGem();
                 break;
             case FallingGem.CueState.Late:
                 Debug.Log("Missed!");
+                hit.text = "Missed!";
                 gem.RemoveLateGem();
                 break;
             case FallingGem.CueState.AlreadyScored:
