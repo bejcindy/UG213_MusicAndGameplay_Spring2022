@@ -106,18 +106,21 @@ public class InputEvaluator : MonoBehaviour
                 gameScore += 1;
                 Debug.Log("OK!");
                 hit.text = "OK!";
+                CreateStar();
                 gem.RemoveLateGem();
                 break;
             case FallingGem.CueState.Good:
                 gameScore += 2;
                 Debug.Log("Good!");
                 hit.text = "Good!";
+                CreateStar();
                 gem.RemoveLateGem();
                 break;
             case FallingGem.CueState.Perfect:
                 gameScore += 3;
                 Debug.Log("Perfect!");
                 hit.text = "Perfect!";
+                CreateStar();
                 gem.RemoveLateGem();
                 break;
             case FallingGem.CueState.Late:
@@ -134,7 +137,12 @@ public class InputEvaluator : MonoBehaviour
 
     }
 
+    void CreateStar()
+    {
+        Vector3 pos = new Vector3(Random.Range(5, 10), 11, -0.4f);
+        Instantiate(Resources.Load("Star"), pos, Quaternion.identity);
 
+    }
 
 
 
