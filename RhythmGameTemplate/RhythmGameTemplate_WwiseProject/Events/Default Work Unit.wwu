@@ -69,21 +69,29 @@
 						<Action Name="" ID="{3E96A003-AE2E-454B-93E5-518BB58E2AB2}" ShortID="750020556">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="sfx_sounds_falling1" ID="{DA5130A3-EE46-4E9D-9613-A7E692D291C5}" WorkUnitID="{B553D9F5-1E89-4FB4-8FC5-1BC741D530C4}"/>
+									<ObjectRef Name="Miss" ID="{12EB43B0-C22E-466C-AFCD-6A491588CD1C}" WorkUnitID="{B553D9F5-1E89-4FB4-8FC5-1BC741D530C4}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="PauseNoteHighwayMusic" ID="{2EC55B5C-0FFC-4C70-ABA6-A5227DC1CF3A}">
+				<Event Name="PlaySamuraiMusic" ID="{AE30E92E-73C0-48FD-B0BB-1140B4335D60}">
 					<ChildrenList>
-						<Action Name="" ID="{B1B39203-4747-4714-A8AD-9C11EE4E9A09}" ShortID="1056826054">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="7"/>
-							</PropertyList>
+						<Action Name="" ID="{03C98491-1E7B-406E-82C7-1A3FD41FD6C8}" ShortID="70012538">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="RhythmGameTemplateMusic" ID="{52CB9DF3-F8BD-47C6-9271-3C361FB507B0}" WorkUnitID="{5142D0E9-31DD-4B24-9FFE-8C6ACB1EFCDB}"/>
+									<ObjectRef Name="bamboo_slice" ID="{D32B88AA-5DCD-42CD-A3DE-53E0CEE5E2EE}" WorkUnitID="{5142D0E9-31DD-4B24-9FFE-8C6ACB1EFCDB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="OopsSound" ID="{6F261C95-397B-4F1D-85F5-ABF3E47860E8}">
+					<ChildrenList>
+						<Action Name="" ID="{BCF9990E-B04A-4C56-BB0A-E316DF82FC1F}" ShortID="1001397998">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Oops" ID="{5B971A5E-61F6-41A0-A72F-CEA865251917}" WorkUnitID="{B553D9F5-1E89-4FB4-8FC5-1BC741D530C4}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

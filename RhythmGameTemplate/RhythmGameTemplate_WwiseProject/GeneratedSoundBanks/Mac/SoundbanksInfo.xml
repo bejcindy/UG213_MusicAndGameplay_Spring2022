@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>D:\Teaching\Spring2022\2022Repo\RhythmGameTemplate\RhythmGameTemplate_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>D:\Teaching\Spring2022\2022Repo\RhythmGameTemplate\RhythmGameTemplate_WwiseProject\.cache\Mac\</SourceFilesRoot>
-		<SoundBanksRoot>D:\Teaching\Spring2022\2022Repo\RhythmGameTemplate\RhythmGameTemplate_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ProjectRoot>/Users/fanjing/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Desktop/Music &amp; Gameplay/UG213_MusicAndGameplay_Spring2022/RhythmGameTemplate/RhythmGameTemplate_WwiseProject/</ProjectRoot>
+		<SourceFilesRoot>/Users/fanjing/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Desktop/Music &amp; Gameplay/UG213_MusicAndGameplay_Spring2022/RhythmGameTemplate/RhythmGameTemplate_WwiseProject/.cache/Mac/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/fanjing/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Desktop/Music &amp; Gameplay/UG213_MusicAndGameplay_Spring2022/RhythmGameTemplate/RhythmGameTemplate_WwiseProject/GeneratedSoundBanks/Mac/</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>D:\Teaching\Spring2022\2022Repo\RhythmGameTemplate\RhythmGameTemplate_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>/Users/fanjing/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Desktop/Music &amp; Gameplay/UG213_MusicAndGameplay_Spring2022/RhythmGameTemplate/RhythmGameTemplate_WwiseProject/GeneratedSoundBanks/Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1268211518" Language="SFX" Hash="717255680">
+		<SoundBank Id="1268211518" Language="SFX" Hash="3070781005">
 			<ObjectPath>\SoundBanks\Default Work Unit\NoteHighway</ObjectPath>
 			<ShortName>NoteHighway</ShortName>
 			<Path>NoteHighway.bnk</Path>
 			<IncludedEvents>
-				<Event Id="1221274415" Name="FallSound" ObjectPath="\Events\Default Work Unit\FallSound" DurationType="OneShot" DurationMin="0.795488" DurationMax="0.795488">
+				<Event Id="1221274415" Name="FallSound" ObjectPath="\Events\Default Work Unit\FallSound" DurationType="OneShot" DurationMin="0.93644" DurationMax="0.93644">
 					<IncludedMemoryFiles>
-						<File Id="1037792397" Language="SFX">
-							<ShortName>sfx_sounds_falling1.wav</ShortName>
-							<Path>SFX\sfx_sounds_falling1_10C4C929.wem</Path>
+						<File Id="399312621" Language="SFX">
+							<ShortName>miss_error.wav</ShortName>
+							<Path>SFX/miss_error_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -28,35 +28,59 @@
 					<IncludedMemoryFiles>
 						<File Id="563557586" Language="SFX">
 							<ShortName>sfx_movement_jump20.wav</ShortName>
-							<Path>SFX\sfx_movement_jump20_10C4C929.wem</Path>
+							<Path>SFX/sfx_movement_jump20_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="377537405" Name="PlayNoteHighwayMusic" ObjectPath="\Events\Default Work Unit\PlayNoteHighwayMusic" DurationType="OneShot" DurationMin="135.137939" DurationMax="135.137939">
+				<Event Id="227641489" Name="OopsSound" ObjectPath="\Events\Default Work Unit\OopsSound" DurationType="OneShot" DurationMin="1.166463" DurationMax="1.166463">
 					<IncludedMemoryFiles>
-						<File Id="719256738" Language="SFX">
-							<ShortName>MB_BattleRaplish_Trouble140Beat.wav</ShortName>
-							<Path>SFX\MB_BattleRaplish_Trouble140Beat_696A9007.wem</Path>
+						<File Id="833600626" Language="SFX">
+							<ShortName>miss_whoops.wav</ShortName>
+							<Path>SFX/miss_whoops_10C4C929.wem</Path>
 						</File>
-						<File Id="751354890" Language="SFX">
-							<ShortName>RhythmGameLevel_Rea2.mid</ShortName>
-							<Path>SFX\RhythmGameLevel_Rea2_3C5605D6.wmid</Path>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="377537405" Name="PlayNoteHighwayMusic" ObjectPath="\Events\Default Work Unit\PlayNoteHighwayMusic" DurationType="OneShot" DurationMin="70.297653" DurationMax="70.297653">
+					<IncludedMemoryFiles>
+						<File Id="6191600" Language="SFX">
+							<ShortName>eyewitness_rhythm_game_track.wav</ShortName>
+							<Path>SFX/eyewitness_rhythm_game_track_696A9007.wem</Path>
 						</File>
 						<File Id="881191192" Language="SFX">
 							<ShortName>08 Two Bit Boss Battles.wav</ShortName>
-							<Path>SFX\08 Two Bit Boss Battles_696A9007.wem</Path>
+							<Path>SFX/08 Two Bit Boss Battles_696A9007.wem</Path>
 						</File>
 						<File Id="1030516904" Language="SFX">
 							<ShortName>TestMidi.mid</ShortName>
-							<Path>SFX\TestMidi_98F6F069.wmid</Path>
+							<Path>SFX/TestMidi_98F6F069.wmid</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2897602606" Name="PlayRhythmHeckinMusic" ObjectPath="\Events\Default Work Unit\PlayRhythmHeckinMusic" DurationType="OneShot" DurationMin="26.879999" DurationMax="26.879999">
+				<Event Id="2897602606" Name="PlayRhythmHeckinMusic" ObjectPath="\Events\Default Work Unit\PlayRhythmHeckinMusic" DurationType="OneShot" DurationMin="46.705032" DurationMax="46.705032">
 					<IncludedMemoryFiles>
+						<File Id="86923841" Language="SFX">
+							<ShortName>mandg_test.wav</ShortName>
+							<Path>SFX/mandg_test_696A9007.wem</Path>
+						</File>
+						<File Id="260267796" Language="SFX">
+							<ShortName>space_battle.wav</ShortName>
+							<Path>SFX/space_battle_696A9007.wem</Path>
+						</File>
+						<File Id="702324040" Language="SFX">
+							<ShortName>bamboo_slice.wav</ShortName>
+							<Path>SFX/bamboo_slice_696A9007.wem</Path>
+						</File>
 						<File Id="808870176" Language="SFX">
 							<ShortName>JumpingMusic1.wav</ShortName>
-							<Path>SFX\JumpingMusic1_696A9007.wem</Path>
+							<Path>SFX/JumpingMusic1_696A9007.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3024074676" Name="PlaySamuraiMusic" ObjectPath="\Events\Default Work Unit\PlaySamuraiMusic" DurationType="OneShot" DurationMin="30.719999" DurationMax="30.719999">
+					<IncludedMemoryFiles>
+						<File Id="702324040" Language="SFX">
+							<ShortName>bamboo_slice.wav</ShortName>
+							<Path>SFX/bamboo_slice_696A9007.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -64,7 +88,7 @@
 				<Event Id="3304723600" Name="StopRhythmHeckinMusic" ObjectPath="\Events\Default Work Unit\StopRhythmHeckinMusic" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="1355168291" Language="SFX" Hash="1666963425">
+		<SoundBank Id="1355168291" Language="SFX" Hash="1966961781">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>

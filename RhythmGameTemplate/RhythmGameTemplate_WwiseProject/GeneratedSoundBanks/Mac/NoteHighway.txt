@@ -1,23 +1,22 @@
 Event	ID	Name			Wwise Object Path	Notes
+	227641489	OopsSound			\Default Work Unit\OopsSound	
 	377537405	PlayNoteHighwayMusic			\Default Work Unit\PlayNoteHighwayMusic	
 	1000191198	JumpSound			\Default Work Unit\JumpSound	
 	1221274415	FallSound			\Default Work Unit\FallSound	
 	2897602606	PlayRhythmHeckinMusic			\Default Work Unit\PlayRhythmHeckinMusic	
+	3024074676	PlaySamuraiMusic			\Default Work Unit\PlaySamuraiMusic	
 	3188186427	StopNoteHighwayMusic			\Default Work Unit\StopNoteHighwayMusic	
 	3304723600	StopRhythmHeckinMusic			\Default Work Unit\StopRhythmHeckinMusic	
 
-Modulator Envelope	ID	Name			Wwise Object Path	Notes
-	1001267805	Modulator Envelope (Custom)				
-
-Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
-	57851982	Wwise Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Default Work Unit\temp_synth\Wwise Synth One	
-
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	563557586	sfx_movement_jump20	D:\Teaching\Spring2022\2022Repo\RhythmGameTemplate\RhythmGameTemplate_WwiseProject\.cache\Mac\SFX\sfx_movement_jump20_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx_movement_jump20		12400
-	719256738	MB_BattleRaplish_Trouble140Beat	D:\Teaching\Spring2022\2022Repo\RhythmGameTemplate\RhythmGameTemplate_WwiseProject\.cache\Mac\SFX\MB_BattleRaplish_Trouble140Beat_696A9007.wem		\Interactive Music Hierarchy\Default Work Unit\RhythmGameTemplateMusic\VideoRhythmGameMusic\MB_BattleRaplish_Trouble140Beat		823494
-	751354890	RhythmGameLevel_Rea	D:\Teaching\Spring2022\2022Repo\RhythmGameTemplate\RhythmGameTemplate_WwiseProject\.cache\Mac\SFX\RhythmGameLevel_Rea2_3C5605D6.wmid		\Interactive Music Hierarchy\Default Work Unit\RhythmGameTemplateMusic\GameMusic_March7\RhythmGameLevel_Rea		51
-	808870176	JumpingMusic1	D:\Teaching\Spring2022\2022Repo\RhythmGameTemplate\RhythmGameTemplate_WwiseProject\.cache\Mac\SFX\JumpingMusic1_696A9007.wem		\Interactive Music Hierarchy\Default Work Unit\RhythmHeckinMusic\JumpingMusic1\JumpingMusic1		294886
-	881191192	ExampleMusic	D:\Teaching\Spring2022\2022Repo\RhythmGameTemplate\RhythmGameTemplate_WwiseProject\.cache\Mac\SFX\08 Two Bit Boss Battles_696A9007.wem		\Interactive Music Hierarchy\Default Work Unit\RhythmGameTemplateMusic\RhythmGameTemplateMusic\ExampleMusic		1833809
-	1030516904	ExampleMIDI	D:\Teaching\Spring2022\2022Repo\RhythmGameTemplate\RhythmGameTemplate_WwiseProject\.cache\Mac\SFX\TestMidi_98F6F069.wmid		\Interactive Music Hierarchy\Default Work Unit\RhythmGameTemplateMusic\RhythmGameTemplateMusic\ExampleMIDI		34
-	1037792397	sfx_sounds_falling1	D:\Teaching\Spring2022\2022Repo\RhythmGameTemplate\RhythmGameTemplate_WwiseProject\.cache\Mac\SFX\sfx_sounds_falling1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx_sounds_falling1		70226
+	6191600	eyewitness_rhythm_game_track	Y:\Desktop\Music & Gameplay\UG213_MusicAndGameplay_Spring2022\RhythmGameTemplate\RhythmGameTemplate_WwiseProject\.cache\Mac\SFX\eyewitness_rhythm_game_track_696A9007.wem		\Interactive Music Hierarchy\Default Work Unit\RhythmGameTemplateMusic\EyewitnessSong\eyewitness_rhythm_game_track		817122
+	86923841	mandg_test	Y:\Desktop\Music & Gameplay\UG213_MusicAndGameplay_Spring2022\RhythmGameTemplate\RhythmGameTemplate_WwiseProject\.cache\Mac\SFX\mandg_test_696A9007.wem		\Interactive Music Hierarchy\Default Work Unit\RhythmHeckinMusic\TEST\mandg_test		750115
+	260267796	space_battle	Y:\Desktop\Music & Gameplay\UG213_MusicAndGameplay_Spring2022\RhythmGameTemplate\RhythmGameTemplate_WwiseProject\.cache\Mac\SFX\space_battle_696A9007.wem		\Interactive Music Hierarchy\Default Work Unit\RhythmHeckinMusic\space_battle\space_battle		529646
+	399312621	Miss	Y:\Desktop\Music & Gameplay\UG213_MusicAndGameplay_Spring2022\RhythmGameTemplate\RhythmGameTemplate_WwiseProject\.cache\Mac\SFX\miss_error_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Miss		165252
+	563557586	sfx_movement_jump20	Y:\Desktop\Music & Gameplay\UG213_MusicAndGameplay_Spring2022\RhythmGameTemplate\RhythmGameTemplate_WwiseProject\.cache\Mac\SFX\sfx_movement_jump20_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx_movement_jump20		12400
+	702324040	bamboo_slice	Y:\Desktop\Music & Gameplay\UG213_MusicAndGameplay_Spring2022\RhythmGameTemplate\RhythmGameTemplate_WwiseProject\.cache\Mac\SFX\bamboo_slice_696A9007.wem		\Interactive Music Hierarchy\Default Work Unit\RhythmHeckinMusic\bamboo_slice\bamboo_slice		386947
+	808870176	JumpingMusic1	Y:\Desktop\Music & Gameplay\UG213_MusicAndGameplay_Spring2022\RhythmGameTemplate\RhythmGameTemplate_WwiseProject\.cache\Mac\SFX\JumpingMusic1_696A9007.wem		\Interactive Music Hierarchy\Default Work Unit\RhythmHeckinMusic\JumpingMusic1\JumpingMusic1		294886
+	833600626	Oops	Y:\Desktop\Music & Gameplay\UG213_MusicAndGameplay_Spring2022\RhythmGameTemplate\RhythmGameTemplate_WwiseProject\.cache\Mac\SFX\miss_whoops_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Oops		205828
+	881191192	ExampleMusic	Y:\Desktop\Music & Gameplay\UG213_MusicAndGameplay_Spring2022\RhythmGameTemplate\RhythmGameTemplate_WwiseProject\.cache\Mac\SFX\08 Two Bit Boss Battles_696A9007.wem		\Interactive Music Hierarchy\Default Work Unit\RhythmGameTemplateMusic\RhythmGameTemplateMusic\ExampleMusic		1833809
+	1030516904	ExampleMIDI	Y:\Desktop\Music & Gameplay\UG213_MusicAndGameplay_Spring2022\RhythmGameTemplate\RhythmGameTemplate_WwiseProject\.cache\Mac\SFX\TestMidi_98F6F069.wmid		\Interactive Music Hierarchy\Default Work Unit\RhythmGameTemplateMusic\RhythmGameTemplateMusic\ExampleMIDI		34
 

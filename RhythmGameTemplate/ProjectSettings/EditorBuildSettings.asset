@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/RhythmHeckin2/RhythmHeckinScenes/Start.unity
+    guid: 6eb74f38376724f1692873bafd989aa9
+  - enabled: 1
+    path: Assets/RhythmHeckin2/RhythmHeckinScenes/AlphaJump.unity
+    guid: 2e77c1a3ecdef4f87a5db4c5345dd37f
+  - enabled: 1
+    path: Assets/RhythmHeckin2/RhythmHeckinScenes/Samurai.unity
+    guid: a7097e8473ade4790ae1f154d882b9a5
   m_configObjects: {}

@@ -111,6 +111,52 @@
 						<ActiveSource Name="Wwise Synth One" ID="{ED9048AB-B592-4D99-A5AC-3455F1FFF42C}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="Miss" ID="{12EB43B0-C22E-466C-AFCD-6A491588CD1C}" ShortID="428853823">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{830FBF7D-C38A-479C-A44C-6F56AA50290A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{617D854A-B360-4264-A9FD-7563999D440C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="miss_error" ID="{DE9DADC0-9662-4FC9-AB32-0BEBE393BDDD}">
+							<Language>SFX</Language>
+							<AudioFile>miss_error.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="399312621"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="miss_error" ID="{DE9DADC0-9662-4FC9-AB32-0BEBE393BDDD}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Oops" ID="{5B971A5E-61F6-41A0-A72F-CEA865251917}" ShortID="1048837719">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{830FBF7D-C38A-479C-A44C-6F56AA50290A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{617D854A-B360-4264-A9FD-7563999D440C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="miss_whoops" ID="{97623E32-8F4C-4894-958F-5AEA6BABE651}">
+							<Language>SFX</Language>
+							<AudioFile>miss_whoops.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="833600626"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="miss_whoops" ID="{97623E32-8F4C-4894-958F-5AEA6BABE651}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

@@ -9,8 +9,10 @@
 						<ObjectRef Name="FallSound" ID="{7144F8F7-D285-42BE-B387-C4D54E3E99D0}" WorkUnitID="{AEEAE56D-4EC1-48EB-818A-DBB4695CE2E1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayNoteHighwayMusic" ID="{0130192A-8663-463B-BA15-34143CE01472}" WorkUnitID="{AEEAE56D-4EC1-48EB-818A-DBB4695CE2E1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="JumpSound" ID="{D0BB7167-151F-46F2-84CD-29FD83EC2D38}" WorkUnitID="{AEEAE56D-4EC1-48EB-818A-DBB4695CE2E1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PlaySamuraiMusic" ID="{AE30E92E-73C0-48FD-B0BB-1140B4335D60}" WorkUnitID="{AEEAE56D-4EC1-48EB-818A-DBB4695CE2E1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="StopRhythmHeckinMusic" ID="{2E88FC22-2872-4ED9-810E-ECBA48E06A06}" WorkUnitID="{AEEAE56D-4EC1-48EB-818A-DBB4695CE2E1}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayRhythmHeckinMusic" ID="{7DCDAE5A-34F6-4EF5-A99A-FA17E316A3C0}" WorkUnitID="{AEEAE56D-4EC1-48EB-818A-DBB4695CE2E1}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="OopsSound" ID="{6F261C95-397B-4F1D-85F5-ABF3E47860E8}" WorkUnitID="{AEEAE56D-4EC1-48EB-818A-DBB4695CE2E1}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
