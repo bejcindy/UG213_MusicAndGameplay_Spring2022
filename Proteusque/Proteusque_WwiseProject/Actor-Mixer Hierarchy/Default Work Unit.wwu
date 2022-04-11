@@ -46,10 +46,17 @@
 								<MediaID ID="451248812"/>
 							</MediaIDList>
 						</AudioFileSource>
+						<AudioFileSource Name="Snapped Up Plucks_1" ID="{EE0E31E0-8F5A-4BB2-B1A7-EF8C7781B484}">
+							<Language>SFX</Language>
+							<AudioFile>Snapped Up Plucks_1.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="265992576"/>
+							</MediaIDList>
+						</AudioFileSource>
 					</ChildrenList>
 					<ObjectLists/>
 					<ActiveSourceList>
-						<ActiveSource Name="ProteusqueSpatialLoop1" ID="{03FFB63E-C19A-492E-849D-EA0DCB3F85F7}" Platform="Linked"/>
+						<ActiveSource Name="Snapped Up Plucks_1" ID="{EE0E31E0-8F5A-4BB2-B1A7-EF8C7781B484}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="ProteusqueSpatialLoop2" ID="{79009F8D-5703-4250-89EC-75CF7A2F4F28}" ShortID="277745157">
@@ -95,10 +102,17 @@
 								<MediaID ID="670101358"/>
 							</MediaIDList>
 						</AudioFileSource>
+						<AudioFileSource Name="8th Wonder_1" ID="{67514BBB-850E-4942-9183-97894BD5D7ED}">
+							<Language>SFX</Language>
+							<AudioFile>8th Wonder_1.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="755584400"/>
+							</MediaIDList>
+						</AudioFileSource>
 					</ChildrenList>
 					<ObjectLists/>
 					<ActiveSourceList>
-						<ActiveSource Name="ProteusqueSpatialLoop2" ID="{39BE5F24-E65A-4B2A-9D08-6A4BAF31BF1B}" Platform="Linked"/>
+						<ActiveSource Name="8th Wonder_1" ID="{67514BBB-850E-4942-9183-97894BD5D7ED}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="ProteusqueSpatialLoop3" ID="{8A64218F-C886-47F0-90C6-64CB38E7AE21}" ShortID="609591018">
@@ -138,10 +152,17 @@
 								<MediaID ID="328500420"/>
 							</MediaIDList>
 						</AudioFileSource>
+						<AudioFileSource Name="Modern Synth Bass_1" ID="{3DC55613-AE5A-436E-88B8-DEC661C1E22C}">
+							<Language>SFX</Language>
+							<AudioFile>Modern Synth Bass_1.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="404967863"/>
+							</MediaIDList>
+						</AudioFileSource>
 					</ChildrenList>
 					<ObjectLists/>
 					<ActiveSourceList>
-						<ActiveSource Name="ProteusqueSpatialLoop3" ID="{E8F56176-554D-4B45-8A7F-6B3F0019CA79}" Platform="Linked"/>
+						<ActiveSource Name="Modern Synth Bass_1" ID="{3DC55613-AE5A-436E-88B8-DEC661C1E22C}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>
