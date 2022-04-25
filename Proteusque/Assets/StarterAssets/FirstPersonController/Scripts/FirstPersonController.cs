@@ -59,6 +59,7 @@ namespace StarterAssets
 
 		// player
 		private float _speed;
+		public float playerSpeed;
 		private float _rotationVelocity;
 		private float _verticalVelocity;
 		private float _terminalVelocity = 53.0f;

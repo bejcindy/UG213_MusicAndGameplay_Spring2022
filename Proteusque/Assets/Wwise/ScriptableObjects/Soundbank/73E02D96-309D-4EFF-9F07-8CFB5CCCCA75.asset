@@ -9,9 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f9d9f41f0a70e43418f2ac9e2badcb31, type: 3}
-  m_Name: B478333A-7379-45B4-8015-E6E11AFF7DD3
+  m_Script: {fileID: 11500000, guid: 3a0c4e2b1ae1e3d4c9aa30e7a1230aba, type: 3}
+  m_Name: 73E02D96-309D-4EFF-9F07-8CFB5CCCCA75
   m_EditorClassIdentifier: 
-  objectName: StartSpatialLoop1
-  id: 3415295600
-  guid: B478333A-7379-45B4-8015-E6E11AFF7DD3
+  objectName: ProceduralMusic
+  id: 2767453949
+  guid: 73E02D96-309D-4EFF-9F07-8CFB5CCCCA75
